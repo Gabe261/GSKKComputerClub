@@ -5,15 +5,14 @@
         <p>
             Pair Programming Team:
         </p>
-        <h3>Assignment 1</h3>
-        <h3>Driver: Kihoon Kim</h3>
-        <h3>Observer: Gabriel Siewert</h3>
+        <h3>Assignment 2</h3>
+        <h3>Driver: Gabriel Siewert</h3>
+        <h3>Observer: Kihoon Kim</h3>
         
         <p>Current Date and Time:</p>
         <h3>
             <%= new java.util.Date() %>
         </h3>
         
-      
     </main>
 <jsp:include page="shared/GSKKFooter.jsp"/>

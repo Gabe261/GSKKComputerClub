@@ -13,12 +13,10 @@ body p{
 
 nav{
     text-align: right;
-    border-bottom: 3px solid goldenrod;
-
-    
+    border-bottom: 3px solid darkslategray;
 }
 html{
-    background-image:linear-gradient(to left, #edf1f7, #f3d55a);
+    background-image:linear-gradient(to left, #edf1f7, #5ac3f3);
     background-size: cover;
 }
 nav ul {
@@ -27,17 +25,21 @@ nav ul {
 nav ul a{
     padding-right: 15px;
     padding-left: 15px;
-    color: forestgreen;
+    color: darkblue;
+}
+main a{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: darkblue;  
 }
 main{
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 20px;
-    border-bottom: 3px solid goldenrod;
-        
+    border-bottom: 3px solid darkslategray;
 }
 header{
-   border-bottom: 3px solid goldenrod;
+   border-bottom: 3px solid darkslategray;
    padding-bottom: 10px;
 }
 
@@ -55,13 +57,13 @@ header img {
 header h1{
     
     margin-bottom: 0px;
-    color: goldenrod;
+    color: darkslategray;
    
 }
 
 header h2 {
     margin-top: 5px;
-    color: forestgreen;
+    color: darkblue;
 }
 
 label {
@@ -69,4 +71,11 @@ label {
   width: 150px;
   text-align: left;
   padding-top: 10px;
+}
+.errormsg{
+    color:red;
+}
+td, th{
+    border: 2px black ridge;
+    padding: 3px;
 }

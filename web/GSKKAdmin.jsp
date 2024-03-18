@@ -2,8 +2,7 @@
 
 <jsp:include page="shared/GSKKBanner.jsp"/>
     <main>
-        <p>
-            It's not part of Assignment1
-        </p>
+        <h1>Admin : Data Maintenance</h1>
+        <a href="GSKKDisplayBooks"><strong>Maintain Books</strong></a>
     </main>
 <jsp:include page="shared/GSKKFooter.jsp"/>
